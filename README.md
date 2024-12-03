@@ -41,8 +41,8 @@ The application has two primary user roles:
 1. **Clone Repository**
    ```bash
    git clone https://github.com/your-username/hr-task-management-app.git
-#Team Members
-#Kaushik (AM.EN.U4CSE21078): Frontend (Angular, designed web pages)
-#Karthik (AM.EN.U4CSE21072): Backend (Spring Boot, API testing)
-#Sabhya (AM.EN.U4CSE21080): Backend (Spring Boot, API testing)
-#Raghu (AM.EN.U4CSE21068): Database connection (MySQL, backend integration)
+##Team Members
+##Kaushik (AM.EN.U4CSE21078): Frontend (Angular, designed web pages)
+##Karthik (AM.EN.U4CSE21072): Backend (Spring Boot, API testing)
+##Sabhya (AM.EN.U4CSE21080): Backend (Spring Boot, API testing)
+##Raghu (AM.EN.U4CSE21068): Database connection (MySQL, backend integration)
