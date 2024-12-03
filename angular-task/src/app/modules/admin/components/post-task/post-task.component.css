@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container form {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container form .form-field {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.container form .form-field mat-form-field {
+  width: 100%;
+}
+.container form .form-field mat-form-field .mat-form-field-wrapper {
+  width: 100%;
+}
+.container form .form-field mat-form-field .mat-datepicker-toggle {
+  margin-top: 10px;
+}
+.container form .form-field mat-form-field .mat-error {
+  font-size: 12px;
+}
+.container form .form-field mat-select {
+  width: 100%;
+}
+.container form .form-field button[type=submit] {
+  width: 50%;
+  background: rgb(28, 28, 191);
+  color: white;
+  font-size: 16px;
+  margin-left: 100px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 26px;
+  color: rgb(28, 28, 191);
+  margin-top: 80px;
+}
+/*# sourceMappingURL=post-task.component.css.map */

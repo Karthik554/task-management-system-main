@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    form {
+      width: 100%; 
+      max-width: 400px; 
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+      .form-field {
+        width: 100%; 
+        margin-bottom: 20px; 
+  
+        mat-form-field {
+          width: 100%; 
+          
+          .mat-form-field-wrapper {
+            width: 100%; 
+          }
+  
+          .mat-datepicker-toggle {
+            margin-top: 10px; 
+          }
+  
+          .mat-error {
+            font-size: 12px; 
+          }
+        }
+  
+        mat-select {
+          width: 100%; 
+        }
+        button[type="submit"] {
+          width: 50%; 
+          background: rgb(28, 28, 191);
+          color: white;
+          font-size: 16px;
+          margin-left: 100px;
+          margin-top: 20px;
+          text-align: center; 
+       }
+      }
+      
+    }
+  }
+  h2 {
+    text-align: center;
+    font-size: 26px;
+    color: rgb(28, 28, 191);
+    margin-top: 80px;
+}
